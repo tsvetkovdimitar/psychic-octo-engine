@@ -83,3 +83,31 @@ Route::get('/delete', function(){
     }
 
 });
+
+// Attaches a role to a user
+
+Route::get('/attach', function(){
+
+    $user = User::findOrFail(1);
+
+    $user->roles()->attach(2);
+
+});
+
+//Detaches a role from a user
+
+Route::get('/detach', function(){
+
+    $user = User::findOrFail(1);
+
+    $user->roles()->detach(2);
+
+});
+
+Route::get('/sync', function(){
+
+    $user = User::findOrFail(1);
+
+    $user->roles()->sync([2,4]);
+
+});
