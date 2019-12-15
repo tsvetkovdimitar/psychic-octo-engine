@@ -10,6 +10,8 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+use App\User;
+use App\Role;
 
 Route::get('/', function () {
     return view('welcome');
@@ -18,5 +20,15 @@ Route::get('/', function () {
 Route::get('/test', function(){
 
     echo "Test test test test test test";
+
+});
+
+Route::get('/create', function(){
+
+    $user = User::find(1);
+
+    $role = new Role(['name'=>'Admin']);
+
+    $user->roles()->save($role);
 
 });
