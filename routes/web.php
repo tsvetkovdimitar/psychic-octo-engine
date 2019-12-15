@@ -27,7 +27,7 @@ Route::get('/create', function(){
 
     $user = User::find(1);
 
-    $role = new Role(['name'=>'Admin']);
+    $role = new Role(['name'=>'Subscriber']);
 
     $user->roles()->save($role);
 
@@ -65,6 +65,20 @@ Route::get('/update', function(){
             }
 
         }
+
+    }
+
+});
+
+Route::get('/delete', function(){
+
+    $user = User::findOrFail(1);
+//
+//    $user->roles()->delete();
+
+    foreach ($user->roles as $role){
+
+        $role->whereId(3)->delete();
 
     }
 
