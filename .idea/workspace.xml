@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="99d781cd-6a65-4709-a16e-acbff961b606" name="Default Changelist" comment="" />
+    <list default="true" id="99d781cd-6a65-4709-a16e-acbff961b606" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/212f9b6d-b21a-44d8-b3d8-df92f425d019.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/212f9b6d-b21a-44d8-b3d8-df92f425d019.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,6 +29,9 @@
     </option>
     <expand />
     <select />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpServers">
     <servers>
@@ -123,12 +129,14 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1V1dF29qtWtdJhBbSkat8UJWXVr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -156,7 +164,7 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="root:manytomany@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@882b2b" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@5d77c7da" type="9fbbdea:ServiceModel$ServiceNode" />
               </path>
             </expand>
             <select />
@@ -176,7 +184,8 @@
       <option name="presentableId" value="Default" />
       <updated>1576424427891</updated>
       <workItem from="1576424429031" duration="14000" />
-      <workItem from="1576424466728" duration="1255000" />
+      <workItem from="1576424466728" duration="2334000" />
+      <workItem from="1576427102697" duration="1150000" />
     </task>
     <servers />
   </component>
